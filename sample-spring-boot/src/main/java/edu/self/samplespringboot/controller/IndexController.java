@@ -14,7 +14,7 @@ public class IndexController {
     @RequestMapping("/")
     public String index() {
         // 変更
-        // return "Hello SpringBoot!!!";
-        return indexService.getIndexString();
+        return "Hello World!";
+        //return indexService.getIndexString();
     }
 }
